@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:wght@400;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&family=Source+Code+Pro:wght@400;600;700&display=swap'); */
+
+/* html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.app {
+    display: flex;
+    position: relative;
+} */
+
+/* SCROLL BAR */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background: #e0e0e0;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: #888;
+} */
+
+/* Handle on Hover */
+/* ::-webkit-scrollbar-track:hover {
+    background: #555;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.paper-color {
+    background: radial-gradient(circle at 44% 42%,rgba(178, 154, 184, 1), #8d3bad, rgba(86, 45, 107, 1)) !important
+    /* background: radial-gradient(circle at 46% 48%,rgba(150, 89, 197, 1), #6527a6, #501d97) !important */
+}
+
+.login-svg {
+    width: 320px;
+    height: 320px;
+    object-fit: "fill";
+    border-style: none;
+    z-index: -1;
+    top: 0;
+}
+
+.login-icon {
+    width: 170px;
+    /* height: 100px; */
+    object-fit: fill;
+    z-index: -1;
+    top: 0;
+}
