@@ -28,9 +28,6 @@ export const PageNotFound = () => {
         animationData={pageNotFound}
         style={{ padding: 0, margin: 0, height: 900 }}
       />
-      {/* <Typography color="primary">
-        We can't seem to find the page you're looking for{" "}
-      </Typography> */}
     </StyledBox>
   );
 };

@@ -96,13 +96,14 @@ const Login = (props) => {
           </Box>
         </Paper>
         <Paper
+          className="login-paper"
           elevation={6}
           sx={{
             display: "flex",
             width: 450,
             height: 480,
             padding: 4,
-            bgcolor: "bgForm.black_1",
+            // bgcolor: "bgForm.black_1",
           }}
         >
           <Stack
